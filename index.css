@@ -1,0 +1,30 @@
+/*-------- identity section --------*/
+
+#identity {
+    display: flex;
+    flex-direction: row;
+    padding: 175px 110px;
+    gap: 0px;
+    background-color: #f7f0e8;
+}
+
+#identity img {
+    width: auto;
+    height: 700px;
+}
+
+#identity-text {
+}
+
+#identity-text h1 {
+    font-size: 60px;
+    margin: 0;
+}
+#identity-text h2 {
+    font-size: 30px;
+    transform: translate(0px, -25px);
+}
+
+#identity-text p {
+    margin-bottom: 30px;
+}
