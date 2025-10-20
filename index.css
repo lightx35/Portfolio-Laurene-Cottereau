@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: row;
     padding: 175px 110px;
-    gap: 70px;
     background-color: #f7f0e8;
 }
 
 #identity img {
     width: auto;
     height: 700px;
+    margin-right: 70px;
 }
 
 #identity-text h1 {
