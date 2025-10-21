@@ -40,7 +40,7 @@ nav ul li {
 
 nav img {
     height: 90px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     position: relative;
 }
 
@@ -49,7 +49,7 @@ nav img:hover {
 }
 
 nav ul li a {
-  transition: 0.4s;
+  transition: 0.3s;
   position: relative;
   font-size: clamp(0.8em, 1.2vw, 2em);
 }
@@ -62,7 +62,7 @@ nav ul li a::before {
   background-color: #60381392;
   bottom: -5px;
   left: 0;
-  transition: width 0.5s;
+  transition: width 0.3s;
 }
 
 nav ul li a:hover::before {
