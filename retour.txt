@@ -1,3 +1,3 @@
-5 - projet pro + acad = faire comme site mais marge sur le coté diff, c.a.d comme index + augmenter gap entre projet
-6 - projet pro = 1 ligne de 3
-7 - projet acad = 2 lignes de 3
+1 - reduire taille texte nev et p de identity
+2 - p cesure des mots
+3 - pour projet h3 reduire taille + 300 italic
