@@ -10,8 +10,21 @@ a, h1, h2, h3, p {
     text-decoration: none;
 }
 
+.italic-300 {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.italic-500 {
+    font-style: italic;
+    font-weight: 500;
+}
+
 p {
-   text-align: justify;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 /*--------- nav ---------*/
@@ -29,8 +42,10 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-end;
     width: 100%;
-    gap: 5%;
+    gap: 6.5%;
+    transform: translateY(10px);
 }
 
 nav ul li {
@@ -51,7 +66,7 @@ nav img:hover {
 nav ul li a {
   transition: 0.3s;
   position: relative;
-  font-size: clamp(0.8em, 1.2vw, 2em);
+  font-size: clamp(0.7em, 1vw, 2em);
 }
 
 nav ul li a::before {
@@ -92,6 +107,7 @@ nav ul li a:hover::before {
   aspect-ratio: 4/3;
   margin-bottom: 5%;
 }
+
 .projects-display div a {
   display: block;
   width: 100%;
@@ -104,3 +120,6 @@ nav ul li a:hover::before {
   background-color: rgba(0, 0, 0, 0.096);
 }
 
+.projects-display div h3 {
+  font-size: clamp(0.8em, 1vw, 1.5em);
+}

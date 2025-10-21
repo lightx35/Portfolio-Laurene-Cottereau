@@ -13,15 +13,15 @@
 }
 
 #identity-text h1 {
-    font: 500 italic 3.5em "Montserrat", sans-serif;
+    font-size: 3.5em;
     margin: 0;
 }
 #identity-text h2 {
-    font: 300 italic 1.8em "Montserrat", sans-serif;
+    font-size: 1.8em;
     transform: translate(0px, -25px);
 }
 
 #identity-text p {
     margin-bottom: 30px;
-    line-height: 1.6em;
+    line-height: 1.2em;
 }

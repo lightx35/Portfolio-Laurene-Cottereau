@@ -1,3 +1,2 @@
-1 - reduire taille texte nev et p de identity
-2 - p cesure des mots
+
 3 - pour projet h3 reduire taille + 300 italic
