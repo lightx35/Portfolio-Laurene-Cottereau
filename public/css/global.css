@@ -4,7 +4,7 @@ body {
 }
 
 /*--------- text style ---------*/
-a, h1, h2, p {
+a, h1, h2, h3, p {
     font-family: "Montserrat", sans-serif;
     color: #603813;
     text-decoration: none;
@@ -38,17 +38,20 @@ nav ul li {
     text-align: center;
 }
 
-nav ul li a {
-    font-size: clamp(0.8em, 1.2vw, 2em);
-}
-
 nav img {
     height: 90px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+nav img:hover {
+    transform: scale(1.25);
 }
 
 nav ul li a {
   transition: 0.4s;
   position: relative;
+  font-size: clamp(0.8em, 1.2vw, 2em);
 }
 
 nav ul li a::before {
@@ -66,10 +69,32 @@ nav ul li a:hover::before {
   width: 100%;
 }
 
+
 @media screen and (max-width: 921px) {
   nav ul li a:hover::before {
   width: 0px;
 }
+}
 
-  
+/*--------- Projects display ---------*/
+
+.projects-display {
+  width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10% 5%;
+    gap: 5%;
+}
+
+.projects-display div {
+  width: 30%;
+  aspect-ratio: 4/3;
+  margin-bottom: 5%;
+}
+.projects-display div a {
+  display: block;
+  width: 100%;
+  height: 84%;
+  background-color: #c4c2a3;
 }
