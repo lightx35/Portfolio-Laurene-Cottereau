@@ -1,3 +1,9 @@
+/*-------- nav - expeptions --------*/
+
+nav ul {
+    transform: translateX(3%);
+}
+
 /*-------- identity section --------*/
 
 #identity {
@@ -23,5 +29,6 @@
 
 #identity-text p {
     margin-bottom: 30px;
-    line-height: 1.2em;
+    line-height: 2em;
+    font-size: 0.8em;
 }

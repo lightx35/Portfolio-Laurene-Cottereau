@@ -1,2 +1,1 @@
-
-3 - pour projet h3 reduire taille + 300 italic
+décaler nav pour que contact soit aligné avec fin du p
