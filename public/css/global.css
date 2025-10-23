@@ -10,6 +10,13 @@ a, h1, h2, h3, p {
     text-decoration: none;
 }
 
+p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 .italic-300 {
     font-style: italic;
     font-weight: 300;
@@ -20,16 +27,24 @@ a, h1, h2, h3, p {
     font-weight: 500;
 }
 
-p {
-  text-align: justify;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+.bold{
+  font-weight: bold;
+}
+/*--------- margin universal values ---------*/
+.margin-sides{
+    margin: 0px 7.8%;
+}
+
+.margin-top{
+  margin-top: 309px;
 }
 
 /*--------- nav ---------*/
 
 nav {
+  position: fixed;
+  z-index: 10;
+  top: 0;
     background-color: #999669;
     width: 95%;
     display: flex;
@@ -99,7 +114,6 @@ nav ul li a:hover::before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10% 7.8%;
     gap: 5%;
 }
 
@@ -129,4 +143,36 @@ nav ul li a:hover::before {
 
 .projects-display div h3 {
   font-size: clamp(0.8em, 1vw, 1.5em);
+}
+
+/*--------- projects-descriptions ---------*/
+
+.projects-descriptions{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.projects-descriptions img {
+  width: 96%;
+  align-self: center;
+  margin: 165px 0 0 0;
+}
+
+.projects-text-description h1{
+  font-size: clamp(1.5em, 4vw, 4em);
+  margin-bottom: 0;
+}
+
+.projects-text-description h2{
+  font-size: clamp(1em, 2vw, 2em);
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.projects-text-description p{
+    margin-bottom: 10px;
+    line-height: 1.65em;
+    font-size: 0.95em;
 }
