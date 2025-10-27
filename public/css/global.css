@@ -30,6 +30,12 @@ p {
 .bold{
   font-weight: bold;
 }
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 /*--------- margin universal values ---------*/
 .margin-sides{
     margin: 0px 7.8%;
@@ -176,4 +182,74 @@ nav ul li a:hover::before {
     margin-bottom: 10px;
     line-height: 1.65em;
     font-size: 0.95em;
+}
+
+/*--------- footer ---------*/
+
+footer {
+    background-color: #999669;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    padding: 40px 0 15px 0;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 24%;
+    width: 90%;
+    margin-right: 8%;
+}
+
+.footer-container {
+    width: auto;
+    height: 100px;
+}
+
+footer img {
+    height: 80px;
+    margin-left: 3%;
+}
+
+.footer-container h3, .footer-container p {
+  color: #f7f0e8;
+  margin-top: 0;
+}
+
+.footer-container h3 {
+  font-size: 0.9em;
+  margin-bottom: 25px;
+}
+
+.footer-container p {
+  font-size: 0.7em;
+  line-height: 0.8em;
+}
+
+.footer-social-media-link-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footer-social-media-link-container a {
+   height: 15px;
+}
+
+
+.footer-social-media-link-container a img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.footer-social-media-link-container p {
+    margin: 0;
 }
