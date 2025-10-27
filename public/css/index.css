@@ -9,16 +9,21 @@ nav ul {
 #identity {
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 6%;
 }
 
 #identity-text{
     transform: translateY(-11px);
+    width: 63%;
 }
 
-#identity img {
-    width: auto;
-    height: 700px;
+#identity #identity-img {
+    width: 30%;
+}
+
+#identity #identity-img img {
+    width: 100%;
+    height: auto;
 }
 
 #identity-text h1 {
@@ -31,7 +36,40 @@ nav ul {
 }
 
 #identity-text p {
-    margin-bottom: 20px;
-    line-height: 1.65em;
-    font-size: 0.875em;
+    margin-bottom: 22px;
+    line-height: 1.7em;
+    font-size: 0.77em;
+}
+
+/*-------- vision-et-valeurs section --------*/
+
+#vision-et-valeurs {
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-bottom: 500px;
+}
+
+#vision-et-valeurs #vision-et-valeurs-text {
+    width: 32%;
+    transform: translateY(-103px);
+}
+
+#vision-et-valeurs #vision-et-valeurs-text h2 {
+    font-size: 1.7em;
+    margin-bottom: 40px;
+}
+
+#vision-et-valeurs #vision-et-valeurs-text p {
+    margin-bottom: 14px;
+    line-height: 1.6em;
+    font-size: 0.78em;
+}
+
+#vision-et-valeurs #vision-et-valeurs-img {
+    width: 50%;
+}
+
+#vision-et-valeurs div img {
+    width: 100%;
 }

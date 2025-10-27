@@ -49,18 +49,16 @@ nav {
     width: 95%;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
     padding: 20px 2.5%;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    width: 100%;
-    gap: 6.5%;
-    transform: translateY(10px);
+    width: 83.5%;
+    gap: 5.5%;
 }
 
 nav ul li {
@@ -89,7 +87,7 @@ nav ul li a::before {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 1.60px;
   background-color: #f7f0e8;
   bottom: -5px;
   left: 0;
@@ -100,6 +98,9 @@ nav ul li a:hover::before {
   width: 100%;
 }
 
+.nav-scrolled {
+  opacity: 0.9;
+}
 
 @media screen and (max-width: 921px) {
   nav ul li a:hover::before {
@@ -161,12 +162,12 @@ nav ul li a:hover::before {
 }
 
 .projects-text-description h1{
-  font-size: clamp(1.5em, 4vw, 4em);
+  font-size: clamp(1.5em, 3vw, 4em);
   margin-bottom: 0;
 }
 
 .projects-text-description h2{
-  font-size: clamp(1em, 2vw, 2em);
+  font-size: clamp(1em, 1.5vw, 2em);
   margin-top: 0;
   margin-bottom: 40px;
 }
