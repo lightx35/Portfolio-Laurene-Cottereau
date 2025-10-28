@@ -11,12 +11,12 @@
 
 #identity-text{
     transform: translateY(-11px);
-    width: 64%;
+    width: 62%;
     height: auto;
 }
 
 #identity #identity-img {
-    width: 30%;
+    width: 32%;
     height: 100%;
 }
 
@@ -37,8 +37,8 @@
 
 #identity-text p {
     margin-top: 2%;
-    line-height: 1.7em;
-    font-size: clamp(0.5em, 0.98vw, 2em);
+    line-height: 1.6em;
+    font-size: clamp(0.5em, 0.96vw, 2em);
 }
 
 /*-------- vision-et-valeurs section --------*/
@@ -56,14 +56,14 @@
 }
 
 #vision-et-valeurs #vision-et-valeurs-text h2 {
-    font-size: 1.7em;
+    font-size: clamp(1.2em, 1.9vw, 3em);
     margin-bottom: 40px;
 }
 
 #vision-et-valeurs #vision-et-valeurs-text p {
     margin-bottom: 14px;
     line-height: 1.6em;
-    font-size: 0.78em;
+    font-size: clamp(0.5em, 0.96vw, 2em);
 }
 
 #vision-et-valeurs #vision-et-valeurs-img {
