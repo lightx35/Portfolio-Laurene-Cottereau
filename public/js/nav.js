@@ -9,3 +9,17 @@ document.addEventListener('scroll', () => {
         nav.classList.remove('nav-scrolled');
     }
 });
+
+//menu
+
+const menuBtn = document.getElementById('menu-btn');
+const menuBlur = document.getElementById('menu-blur');
+const menuList = document.getElementById('nav-list');
+
+
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.toggle('active');
+  menuBlur.classList.toggle('active');
+  menuList.classList.toggle('active');
+  
+});

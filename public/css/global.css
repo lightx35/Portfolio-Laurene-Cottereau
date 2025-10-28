@@ -4,7 +4,7 @@ body {
 }
 
 /*--------- text style ---------*/
-a, h1, h2, h3, p {
+a, h1, h2, h3, h4, p {
     font-family: "Montserrat", sans-serif;
     color: #603813;
     text-decoration: none;
@@ -17,6 +17,8 @@ p {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  font-size: clamp(0.5em, 0.96vw, 2em);
+  line-height: 1.56em;
 }
 
 .italic-300 {
@@ -51,8 +53,8 @@ p {
 
 nav {
   position: fixed;
-  z-index: 10;
   top: 0;
+  z-index: 10;
     background-color: #999669;
     width: 100%;
     display: flex;
@@ -120,11 +122,120 @@ nav ul li a:hover::before {
   opacity: 0.9;
 }
 
-@media screen and (max-width: 921px) {
+#menu-btn, #menu-blur{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
   nav ul li a:hover::before {
   width: 0px;
 }
+
+#menu-blur {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.378);
+  backdrop-filter: blur(4px);
+  z-index: 2;
 }
+
+#menu-blur.active {
+  display: block;
+}
+
+nav a img {
+    height: 70px;
+}
+
+#menu-btn, nav a {
+  margin: 0 30px;
+  z-index: 20;
+
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+nav ul.active {
+  visibility: visible;
+}
+
+nav ul li a {
+  font-size: clamp(0.6em, 5vw, 1.2em);
+  font-weight: bold;
+  width: 100%;
+  color: white;
+}
+
+#menu-btn {
+  display: block;
+  z-index: 20;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-line {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #f7f0e8;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.menu-line:nth-child(1) {
+  top: 0;
+}
+
+.menu-line:nth-child(2) {
+  top: 12px;
+}
+
+.menu-line:nth-child(3) {
+  bottom: 0;
+}
+
+#menu-btn.active .menu-line:nth-child(1) {
+  transform: rotate(45deg);
+  top: 12px;
+}
+
+#menu-btn.active .menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+#menu-btn.active .menu-line:nth-child(3) {
+  transform: rotate(-45deg);
+  bottom: 13px;
+}
+}
+
 
 /*--------- Projects display ---------*/
 
@@ -228,7 +339,7 @@ footer img {
     margin-left: 3%;
 }
 
-.footer-container h3, .footer-container p {
+.footer-container h3, .footer-container h4 {
   color: #f7f0e8;
   margin-top: 0;
 }
@@ -238,9 +349,9 @@ footer img {
   margin-bottom: 25px;
 }
 
-.footer-container p {
+.footer-container h4 {
   font-size: 0.7em;
-  line-height: 0.8em;
+  line-height: 1.6xem;
 }
 
 .footer-social-media-link-container {
@@ -262,6 +373,6 @@ footer img {
     margin: 0;
 }
 
-.footer-social-media-link-container p {
+.footer-social-media-link-container h4 {
     margin: 0;
 }

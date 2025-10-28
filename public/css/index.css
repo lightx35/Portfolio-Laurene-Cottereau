@@ -37,8 +37,6 @@
 
 #identity-text p {
     margin-top: 2%;
-    line-height: 1.6em;
-    font-size: clamp(0.5em, 0.96vw, 2em);
 }
 
 /*-------- vision-et-valeurs section --------*/
@@ -46,13 +44,12 @@
 #vision-et-valeurs {
     display: flex;
     flex-direction: row;
-    gap: 18%;
     margin-bottom: 500px;
 }
 
 #vision-et-valeurs #vision-et-valeurs-text {
     width: 32%;
-    transform: translateY(-103px);
+    transform: translateY(-82px);
 }
 
 #vision-et-valeurs #vision-et-valeurs-text h2 {
@@ -62,8 +59,6 @@
 
 #vision-et-valeurs #vision-et-valeurs-text p {
     margin-bottom: 14px;
-    line-height: 1.6em;
-    font-size: clamp(0.5em, 0.96vw, 2em);
 }
 
 #vision-et-valeurs #vision-et-valeurs-img {
@@ -72,4 +67,18 @@
 
 #vision-et-valeurs div img {
     width: 100%;
+}
+
+#dot-split {
+   width: 3.5px; /* épaisseur de la ligne */
+  height: 450px; /* hauteur totale */
+  background: repeating-linear-gradient(
+    to bottom,
+    #999669,
+    #999669 15.6px,   /* longueur d’un tiret */
+    transparent 10px,
+    transparent 30.7px /* espace entre tirets */
+  );
+  margin: 0 12% 0 6%;
+
 }
