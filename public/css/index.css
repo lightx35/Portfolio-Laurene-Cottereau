@@ -26,17 +26,19 @@
 }
 
 #identity-text h1 {
-    font-size: 3.5em;
+    font-size: clamp(2em, 3.9vw, 5em);
     margin: 0;
 }
 #identity-text h2 {
-    font-size: 1.8em;
-    transform: translate(0px, -25px);
+    font-size: clamp(1.2em, 2vw, 3em);
+    transform: translateY(-20%);
+    margin-bottom: 3%;
 }
 
 #identity-text p {
+    margin-top: 2%;
     line-height: 1.7em;
-    font-size: 0.8em;
+    font-size: clamp(0.5em, 0.98vw, 2em);
 }
 
 /*-------- vision-et-valeurs section --------*/
