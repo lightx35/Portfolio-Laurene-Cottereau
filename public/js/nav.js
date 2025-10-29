@@ -21,5 +21,5 @@ menuBtn.addEventListener('click', () => {
   menuBtn.classList.toggle('active');
   menuBlur.classList.toggle('active');
   menuList.classList.toggle('active');
-  
+  document.body.classList.toggle('disable-scroll')
 });
