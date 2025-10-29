@@ -1,3 +1,2 @@
-a faire plus tard version tel
-
-faire footer v2
+copyrights changer positions
+logo footer reduire size et align center

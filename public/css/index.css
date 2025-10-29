@@ -44,6 +44,7 @@
 #vision-et-valeurs {
     display: flex;
     flex-direction: row;
+    width: auto;
     margin-bottom: 300px;
     margin-top: 200px;
 }
@@ -63,7 +64,7 @@
 }
 
 #vision-et-valeurs #vision-et-valeurs-img {
-    width: 50%;
+    width: 46%;
 }
 
 #vision-et-valeurs div img {
@@ -80,6 +81,6 @@
     transparent 10px,
     transparent 30.7px /* espace entre tirets */
   );
-  margin: 0 12% 0 6%;
+  margin: 0 auto 0 6%;
 
 }
