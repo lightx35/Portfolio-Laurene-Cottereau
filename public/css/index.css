@@ -44,7 +44,8 @@
 #vision-et-valeurs {
     display: flex;
     flex-direction: row;
-    margin-bottom: 500px;
+    margin-bottom: 300px;
+    margin-top: 200px;
 }
 
 #vision-et-valeurs #vision-et-valeurs-text {
