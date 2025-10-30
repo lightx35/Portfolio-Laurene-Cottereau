@@ -50,7 +50,7 @@ section {
 /*--------- project-implantation ---------*/
 
 #project-implantation {
-    margin-top: 150px;
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -64,16 +64,75 @@ section {
     width: 32%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #implantation-description #implantation-description-title {
+
 }
 
 #implantation-description h4 {
     font-size: 0.9em;
     color: #a14a24;
+    margin-bottom: 20%;
 }
 
 #implantation-description .img-container {
-    justify-self: flex-end;
+
+}
+
+
+/*--------- Plan-rez-de-jardin ---------*/
+
+#plan-rez-de-jardin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#plan-rez-de-jardin h3 {
+    margin-bottom: 2%;
+    margin: 0 7.8%;
+}
+
+#plan-rez-de-jardin #plan-rdj.img-container {
+    width: 60%;
+    align-self: center;
+}
+
+#plan-rez-de-jardin #bande {
+    width: 84.4%;
+    background-color: #a14a24;
+    margin: 7% 0;
+    padding: 2% 7.8%;
+}
+
+#plan-rez-de-jardin #bande p {
+    color: #f7f0e8; 
+}
+
+#plan-rdj-activites-display {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7.8%;
+}
+
+#plan-rdj-activites-display #plan-rdj.img-container {
+    width: 30%;
+}
+
+#plan-rdj-activites-display #dot-split {
+    position: relative;
+    width: 5px; /* épaisseur de la ligne */
+    background: repeating-linear-gradient(
+    to bottom,
+    #a14a24,
+    #a14a24 15.6px,   /* longueur d’un tiret */
+    transparent 10px,
+    transparent 30.7px /* espace entre tirets */
+    );
+}
+
+#plan-rdj-activites-display #plan-rdj-activites.img-container {
+    width: 60%;
 }
