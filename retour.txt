@@ -1,2 +1,1 @@
-copyrights changer positions
-logo footer reduire size et align center
+mobil menu display prend que le haut et reste en haut meme si on est en bas

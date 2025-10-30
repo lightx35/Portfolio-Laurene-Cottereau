@@ -287,34 +287,14 @@ nav ul li a {
 
 /*--------- projects-descriptions ---------*/
 
-.projects-descriptions{
-  width: 100%;
+.projects-img-start {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
+  justify-content: center;
 }
 
-.projects-descriptions img {
+.projects-img-start img {
   width: 96%;
-  align-self: center;
-  margin: 165px 0 0 0;
-}
-
-.projects-text-description h1{
-  font-size: clamp(1.5em, 3vw, 4em);
-  margin-bottom: 0;
-}
-
-.projects-text-description h2{
-  font-size: clamp(1em, 1.5vw, 2em);
-  margin-top: 0;
-  margin-bottom: 40px;
-}
-
-.projects-text-description p{
-    margin-bottom: 10px;
-    line-height: 1.65em;
-    font-size: 0.95em;
+  margin-top: 165px ;
 }
 
 /*--------- footer ---------*/
