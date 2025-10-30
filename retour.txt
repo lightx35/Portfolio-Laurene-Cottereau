@@ -1,1 +1,6 @@
 mobil menu display prend que le haut et reste en haut meme si on est en bas
+
+reduire taille legende de 20%
+reduire taille plan rez de jardin
+augmenter margin bottom du h3 plan du rez de jardin
+bande text align center

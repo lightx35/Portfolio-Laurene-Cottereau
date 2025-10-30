@@ -78,7 +78,7 @@ section {
 }
 
 #implantation-description .img-container {
-
+    width: 50%;
 }
 
 
@@ -91,12 +91,11 @@ section {
 }
 
 #plan-rez-de-jardin h3 {
-    margin-bottom: 2%;
-    margin: 0 7.8%;
+    margin: 0 7.8% 3% 7.8%;
 }
 
 #plan-rez-de-jardin #plan-rdj.img-container {
-    width: 60%;
+    width: 45%;
     align-self: center;
 }
 
@@ -109,6 +108,7 @@ section {
 
 #plan-rez-de-jardin #bande p {
     color: #f7f0e8; 
+    text-align: center;
 }
 
 #plan-rdj-activites-display {
@@ -135,4 +135,66 @@ section {
 
 #plan-rdj-activites-display #plan-rdj-activites.img-container {
     width: 60%;
+}
+
+/*--------- mucic ---------*/
+
+#music {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#music h3 {
+    margin-bottom: 4%;
+}
+
+/*--------- plan-rez-de-chaussée ---------*/
+
+#plan-rez-de-chaussée {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+#plan-rez-de-chaussée h3 {
+    margin-bottom: 4%;
+}
+
+#plan-rez-de-chaussée #plan-rdc-img-container {
+    width: 60%;
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+/*--------- scenarios-d-usages-mobiliers ---------*/
+
+#scenarios-d-usages-mobiliers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+#scenarios-d-usages-mobiliers h3 {
+    margin-bottom: 4%;
+}
+
+/*--------- idk ---------*/
+
+#idk {
+    margin-top: 15%;
+    height: 600px;
+}
+
+/*--------- maquette ---------*/
+
+#maquette {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#maquette div.img-container {
+    width: 40%;
 }

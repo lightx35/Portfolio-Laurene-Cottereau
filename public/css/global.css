@@ -297,6 +297,19 @@ nav ul li a {
   margin-top: 165px ;
 }
 
+.display-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 10%;
+  row-gap: 10%;
+  width: 100%;
+}
+
+.display-grid-4 #container h4 {
+  margin-top: 2%;
+}
+
 /*--------- footer ---------*/
 
 footer {
