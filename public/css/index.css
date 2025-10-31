@@ -81,9 +81,9 @@
   background: repeating-linear-gradient(
     to bottom,
     #999669,
-    #999669 15.6px,   /* longueur d’un tiret */
-    transparent 10px,
-    transparent 30.7px /* espace entre tirets */
+    #999669 5%,   /* longueur d’un tiret */
+    transparent 5%,
+    transparent 8% /* espace entre tirets */
   );
   margin: 0 auto 0 6%;
 

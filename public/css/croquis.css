@@ -3,6 +3,10 @@
     font-size: larger;
 }
 
+#nav-croquis a:hover::before {
+  width: 0;
+}
+
 /*-------- presentaion --------*/
 
 #presentation{

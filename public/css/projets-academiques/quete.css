@@ -120,9 +120,9 @@ section {
     background: repeating-linear-gradient(
     to bottom,
     #a14a24,
-    #a14a24 15.6px,   /* longueur d’un tiret */
-    transparent 10px,
-    transparent 30.7px /* espace entre tirets */
+    #a14a24 5%,   /* longueur d’un tiret */
+    transparent 5%,
+    transparent 8% /* espace entre tirets */
     );
 }
 

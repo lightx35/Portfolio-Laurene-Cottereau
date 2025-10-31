@@ -2,3 +2,7 @@
   font-weight: 550;
   font-size: larger;
 }
+
+#nav-projets-académiques a:hover::before {
+  width: 0;
+}

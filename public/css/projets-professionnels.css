@@ -2,3 +2,6 @@
   font-weight: 550;
   font-size: larger;
 }
+#nav-projets-professionnels a:hover::before {
+  width: 0;
+}
