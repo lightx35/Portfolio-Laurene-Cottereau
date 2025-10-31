@@ -1,25 +1,7 @@
 mobil menu display prend que le haut et reste en haut meme si on est en bas
 
+augmenter taille de pointiller ex 2px passse à 3px
+nav :
 
-reduire margin top quete
+quand on est sur la page faire souligner le nom et desactiver l'animation d'hover
 
-plan rez de chaussée grand img et plan rez de chaussée avec légende img -> remettre les bonnes photos
-
-taille plan rdc = taille plan 1er etage
-
-
-croquis : 
-
-reduire margin top croqui italy de 1/3
-
-croquis free time reduire taille des 3 un peu
-
-croquis architecture reduire taille des 2 un peu
-
-mettre le meme espace entre chaque section, cad le meme qu'entre italy et free-time
-
-mettre margin top p de vegetation
-
-dot split width set to 4px
-
-remplacer photos vegeteation :1 = photo mail, 2 = photo mail, 3 = vide
