@@ -38,7 +38,7 @@
 #italy {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 #italy #italy-croquis-container {
@@ -63,7 +63,7 @@
 /*-------- free-time --------*/
 
 #free-time {
-    margin-top: 12%;
+    margin-top: 11%;
 }
 
 #free-time #free-time-croquis-container {
@@ -72,7 +72,7 @@
 }
 
 #free-time #free-time-croquis-container .img-container {
-    width: 30%;
+    width: 27%;
 }
 
 #free-time p {
@@ -87,15 +87,15 @@
 #architecture {
     display: flex;
     justify-content: space-between;
-    margin-top: 13%;
+    margin-top: 11%;
 }
 
 #architecture .architecture-croquis-container:nth-child(1) {
-    width: 60%;
+    width: 55%;
 }
 
 #architecture .architecture-croquis-container:nth-child(2) {
-    width: 26.8%;
+    width: 24.6%;
 }
 
 #architecture .architecture-croquis-container p {
@@ -106,7 +106,7 @@
 /*-------- vegetation --------*/
 
 #vegetation {
-    margin-top: 13%;
+    margin-top: 11%;
     margin-bottom: 5%;
 }
 
@@ -120,7 +120,6 @@
     width: 28%;
 }
 
-
-#vegetation #vegetation-croquis-container .img-container:nth-child(2), #vegetation #vegetation-croquis-container .img-container:nth-child(3) {
- background-color: #999669;
+#vegetation p {
+    margin-top: 1.5%;
 }

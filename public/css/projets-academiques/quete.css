@@ -12,7 +12,7 @@ section {
 #project-description {
     display: flex;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 #project-title {
@@ -116,7 +116,7 @@ section {
 
 #plan-rdc-activites-display #dot-split {
     position: relative;
-    width: 5px; /* épaisseur de la ligne */
+    width: 0.4%; /* épaisseur de la ligne */
     background: repeating-linear-gradient(
     to bottom,
     #a14a24,
@@ -155,7 +155,7 @@ section {
 }
 
 #plan-premier-etage #plan-premier-etage-img-container {
-    width: 60%;
+    width: 53%;
     align-self: center;
     margin-bottom: 10%;
 }

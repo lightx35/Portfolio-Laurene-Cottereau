@@ -77,7 +77,7 @@
 
 #dot-split {
     position: relative;
-   width: 3.5px; /* épaisseur de la ligne */
+   width: 0.4%; /* épaisseur de la ligne */
   background: repeating-linear-gradient(
     to bottom,
     #999669,
