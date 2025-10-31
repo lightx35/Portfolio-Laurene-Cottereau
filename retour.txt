@@ -1,7 +1,8 @@
 mobil menu display prend que le haut et reste en haut meme si on est en bas
 
-augmenter taille de pointiller ex 2px passse à 3px
+
 nav :
 
-quand on est sur la page faire souligner le nom et desactiver l'animation d'hover
 
+augmenter margin botom h1 quete
+mettre la taille du dot split comme sur index mtn et mettre en px + agrandire un peu les tirets et l'espace
