@@ -7,6 +7,10 @@ body.disable-scroll {
   overflow: hidden;
 }
 
+.img-container img {
+    width: 100%;
+}
+
 /*--------- text style ---------*/
 a, h1, h2, h3, h4, h5, p {
     font-family: "Montserrat", sans-serif;
