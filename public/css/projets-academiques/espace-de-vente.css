@@ -4,6 +4,10 @@ h3 {
     font-size: 1.5em;
 }
 
+.project-description .img-container {
+    width: 42%;
+}
+
 /*--------- da ---------*/
 
 #da {

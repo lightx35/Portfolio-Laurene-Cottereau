@@ -7,6 +7,11 @@ section {
     width: auto;
 }
 
+.project-description .img-container {
+    width: 35%;
+}
+
+
 /*--------- description-section ---------*/
 
 /*--------- project-implantation ---------*/
