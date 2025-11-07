@@ -1,0 +1,113 @@
+
+h3 {
+    color: #a14a24;
+    font-size: 1.5em;
+}
+
+/*--------- da ---------*/
+
+#da {
+    margin-top: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#da-logo{
+    width: 28.5%;
+}
+
+#da-mockup {
+    width: 46%;
+}
+
+#da-logo p {
+margin-top: 6%;
+}
+
+#da-mockup p {
+ margin-top: 3.5%;
+}
+
+/*--------- legende ---------*/
+
+#legende {
+    margin-top: 14%;
+}
+
+#legende .img-container{
+    width: 65%;
+    margin: auto;
+}
+
+/*--------- plan-rdc-premier-etage ---------*/
+
+#plan-rdc-premier-etage {
+    margin-top: 14%;
+}
+
+#plan-rdc-premier-etage h3 {
+    margin-bottom: 8%;
+}
+
+#plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plans .plan-container {
+    width: 45%;
+}
+
+#plans .plan-container p {
+    margin-top: 2%;
+}
+
+#coupe {
+    width: 60%;
+    margin: auto;
+    margin-top: 12%;
+}
+
+#coupe p {
+    margin-top: 3%;
+    text-align: end;
+}
+
+/*--------- visuel-rdc + visuel-premier-etage ---------*/
+
+#visuel-rdc{
+    margin-top: 14%;
+}
+
+#visuel-premier-etage {
+    margin-top: 7%;
+}
+
+#visuel-rdc h3, #visuel-premier-etage h3 {
+    margin-bottom: 5%;
+}
+
+.visuel-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.visuel-container .img-container {
+    width: 45%;
+}
+
+
+
+/*--------- mobilier ---------*/
+
+#mobilier {
+    margin-top: 14%;
+    margin-bottom: 10%;
+}
+
+#mobilier .img-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
