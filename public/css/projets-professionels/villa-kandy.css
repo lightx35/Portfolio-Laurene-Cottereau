@@ -1,0 +1,78 @@
+.project-description .img-container {
+    width: 22%;
+}
+
+h3 {
+    color: #a14a24;
+    font-size: 1.5em;
+}
+
+/*--------- salon + bibliotheque ---------*/
+
+#salon {
+    margin-top: 14%;
+}
+
+#salon h3, #bibliotheque h3 {
+    margin-bottom: 8%;
+}
+
+#salon #plan-coupes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#salon #plan-coupes .img-container:nth-child(1) {
+    width: 35%;
+}
+
+#salon #plan-coupes .img-container:nth-child(2) {
+    width: 50%;
+}
+
+
+#bibliotheque {
+    margin-top: 10%;
+}
+
+#bibliotheque .img-container {
+    width: 68%;
+}
+
+
+/*--------- visuel-bibliotheque ---------*/
+
+#visuel-bibliotheque {
+    margin-top: 14%;
+}
+
+#visuel-bibliotheque .img-container, #visuel-bibliotheque p {
+    width: 73%;
+    margin: auto;
+}
+
+#visuel-bibliotheque p {
+    text-align: end;
+    margin-top: 1.5%;
+}
+
+
+/*--------- visuel-salon ---------*/
+
+#visuel-salon {
+    margin-top: 14%;
+    margin-bottom: 8%;
+}
+
+#visuel-salon h3 {
+    margin-bottom: 5%;
+}
+
+#visuel-salon #visuels-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#visuel-salon #visuels-container .img-container {
+    width: 45%;
+}
