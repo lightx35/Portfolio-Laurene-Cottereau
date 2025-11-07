@@ -1,8 +1,9 @@
 mobil menu display prend que le haut et reste en haut meme si on est en bas
 
-
-nav :
-
+------------------
 
 augmenter margin botom h1 quete
 mettre la taille du dot split comme sur index mtn et mettre en px + agrandire un peu les tirets et l'espace
+
+
+faire projet ecume des prés

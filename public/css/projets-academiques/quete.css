@@ -9,40 +9,6 @@ section {
 
 /*--------- description-section ---------*/
 
-#project-description {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 6%;
-}
-
-#project-title {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
-
-#project-title h1 {
-    font-size: clamp(1em, 3vw, 10em);
-    margin-bottom: 1%;
-}
-
-#project-title h2 {
-    font-size: clamp(0.1em, 1.3vw, 10em);
-    margin-bottom: 4%;
-}
-#project-title p {
-    font-size: 0.8em;
-    margin-top: 2.5%;
-}
-
-#project-description .img-container {
-    width: 30%;
-    height: auto;
-    align-self: flex-end;
-    margin-bottom: 2%;
-}
-
-
 /*--------- project-implantation ---------*/
 
 #project-implantation {
@@ -93,15 +59,16 @@ section {
 }
 
 #plan-rez-de-chaussée #bande {
-    width: 75%;
+    width: 74%;
     background-color: #a14a24;
     margin: 7% 0;
-    padding: 2% 12.5%;
+    padding: 2% 13%;
 }
 
 #plan-rez-de-chaussée #bande p {
     color: #f7f0e8; 
     text-align: center;
+    font-weight: 100;
 }
 
 #plan-rdc-activites-display {

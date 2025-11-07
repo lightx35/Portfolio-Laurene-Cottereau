@@ -301,7 +301,39 @@ nav ul li a {
   margin-top: 165px ;
 }
 
-.display-grid-4 {
+.project-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.project-title h1 {
+    font-size: clamp(1em, 3vw, 10em);
+    margin-bottom: 1%;
+}
+
+.project-title h2 {
+    font-size: clamp(0.1em, 1.3vw, 10em);
+    margin-bottom: 4%;
+}
+.project-title p {
+    font-size: 0.8em;
+    margin-top: 2.5%;
+}
+
+.project-description .img-container {
+    width: 37%;
+    height: auto;
+    align-self: flex-end;
+}
+
+.display-grid-2-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -310,7 +342,7 @@ nav ul li a {
   width: 100%;
 }
 
-.display-grid-4 #container h4 {
+.display-grid-2-2 #container h4 {
   margin-top: 2%;
 }
 
