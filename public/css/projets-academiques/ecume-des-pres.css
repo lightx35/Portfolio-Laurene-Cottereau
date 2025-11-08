@@ -8,13 +8,14 @@ section {
 }
 
 .project-description .img-container {
-    width: 42%;
+    width: 38%;
+    margin-bottom: 6%;
 }
 
 /*--------- concept ---------*/
 
 #ecume-des-pres-concept {
-    margin-top: 14%;
+    margin-top: 12%;
 }
 
 #ecume-des-pres-concept .img-container {
@@ -30,13 +31,13 @@ section {
 /*--------- schema ---------*/
 
 #ecume-des-pres-schema {
-    margin-top: 14%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
 }
 
 #ecume-des-pres-schema .img-container {
-    width: 45%;
+    width: 40%;
 }
 
 
@@ -106,7 +107,7 @@ section {
 /*--------- plantes & materials ---------*/
 
 #plantes, #materials  {
-    margin-top: 14%;
+    margin-top: 8%;
 }
 
 #plantes h3, #materials h3 {
