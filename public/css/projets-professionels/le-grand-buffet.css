@@ -1,0 +1,170 @@
+.project-description .img-container {
+    width: 42%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    color: #a14a24;
+    font-size: 1.5em;
+}
+
+
+/*--------- plans ---------*/
+
+#plans {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-existant, #project-plan {
+    width: 40%;
+}
+
+#plan-existant p , #project-plan p {
+    margin-top: 3%;
+}
+
+
+/*--------- elevation-elec ---------*/
+
+#elevation-elec {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#elevation{
+    width: 39%;
+}
+
+#elevation p {
+    margin-top: 6%;
+}
+
+#elec {
+    width: 40%;
+}
+
+#elec p {
+    margin-top: 1%;
+}
+
+
+/*--------- coupes ---------*/
+
+#coupes {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#coupe-aa {
+    width: 35.4%;
+}
+
+#coupe-aa p {
+    margin-top: 4%;
+}
+
+#coupe-cc {
+    width: 47%;
+}
+
+#coupe-cc p {
+    margin-top: 3%;
+}
+
+/*--------- visuel ---------*/
+
+#visuel {
+    margin: 10% 18% 0 18%;
+}
+
+#visuel .img-container {
+    width: 100%;
+}
+
+#visuel p {
+    margin-top: 1.5%;
+    text-align: end;
+}
+
+/*--------- #plan-mobilier ---------*/
+
+
+#plan-mobilier {
+    margin-top: 12%;
+}
+
+#plan-mobilier h3 {
+    margin-bottom: 6%;
+}
+
+#plan-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-mobilier .img-container:nth-child(1) {
+    width: 37%;
+}
+
+#plan-mobilier .img-container:nth-child(2) {
+    width: 50%;
+}
+
+/*--------- trvaux ---------*/
+.travaux-row-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+/*--------- avant-travaux ---------*/
+
+#avant-travaux {
+    margin-top: 10%;
+}
+
+#avant-travaux .travaux-row-display .img-container:nth-child(1) {
+    width: 39.2%;
+}
+#avant-travaux .travaux-row-display .img-container:nth-child(2) {
+    width: 22%;
+}
+#avant-travaux .travaux-row-display .img-container:nth-child(3) {
+    width: 22%;
+}
+
+
+/*--------- pendant-travaux ---------*/
+
+#pendant-travaux {
+    margin-top: 3.5%;
+}
+
+#pendant-travaux .travaux-row-display .img-container {
+    width: 16%;
+}
+
+#pendant-travaux .travaux-row-display .img-container:nth-child(1) {
+    width: 28.5%;
+}
+
+
+/*--------- apres-travaux ---------*/
+
+#apres-travaux  {
+    margin-top: 3.5%;
+    margin-bottom: 6%;
+}
+
+#apres-travaux .travaux-row-display .img-container {
+    width: 22.5%;
+}
+
+#apres-travaux .travaux-row-display .img-container:nth-child(2) {
+    width: 40%;
+}
+
