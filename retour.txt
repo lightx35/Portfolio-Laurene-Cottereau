@@ -1,4 +1,4 @@
-mobil menu display prend que le haut et reste en haut meme si on est en bas
+mobil menu display prend que le haut et reste en haut meme si on est en bas : peut etre mettre en position fixed
 
 ------------------
 
@@ -8,25 +8,11 @@ mettre mots en gras pour chaque projet
 
 villa candy : 
 
-- changer photo projet avec la meme mais avec la dame assise
-- reduire margin top du salon
-- reduire un peu margin top de visuel 3d
+reduire margin top plan et coupe salon
 
 ecume des pres : 
-- reduire margin top un peu concept
-- reduire margin top un peu legende + reduire un tout petit peu la taille des img
-- reduire margin top un peu plantes
-- pour les p de plante et materieux mettre un point a la fin de chaque
-- reduire margin top un peu materials
-- reduire taille un peu img description et mettre un margin bottom pour aligner avec milieu text
 
-espace de vente : 
-- reduire taille un peu img description et mettre un margin bottom pour aligner avec milieu text
-- reduire margin top logo et mockup + reduire taille un peu des img + augmenter un peu margin top des p et aligner le p de droite à droite
-
-
-projet pro :
-- rajouter 2 cases
+changer les images de 3D
 
 
 idée : 

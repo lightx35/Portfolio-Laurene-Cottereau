@@ -1,3 +1,48 @@
 .project-description .img-container {
-    width: 25.2%;
+    width: 35%;
+}
+
+/*--------- plan-coupe ---------*/
+
+#plan-coupe {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan {
+    width: 44.9%;
+}
+
+#coupe {
+    width: 34%;
+}
+
+#plan-coupe p {
+    margin-top: 4%;
+    text-align: end;
+}
+
+/*--------- project-visuel ---------*/
+
+#project-visuel {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#visuel-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#visuel-container .img-container {
+    width: 29%;
+}
+
+#visuel-container .img-container:nth-child(3) {
+    width: 27.95%;
+}
+
+#project-visuel p {
+    margin-top: 1.3%;
 }
