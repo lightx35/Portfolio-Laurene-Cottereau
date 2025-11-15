@@ -1,0 +1,42 @@
+.project-description .img-container {
+    width: 42%;
+}
+
+/*--------- plan-coupe ---------*/
+
+#plan-coupe {
+    margin-top: 10%;
+}
+
+#plan-coupe-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-coupe-container .img-container {
+    width: 44%;
+}
+
+#plan-coupe-container .img-container:nth-child(2) {
+    align-self: flex-end;
+}
+
+#plan-coupe p{
+    margin-top: 2%;
+    text-align: end;
+}
+
+/*---------visuel ---------*/
+
+#visuel {
+    margin: 12% 21%;
+}
+
+#visuel .img-container {
+    width: 100%;
+}
+
+#visuel p {
+    margin-top: 2%;
+    text-align: end;
+}
